@@ -83,7 +83,7 @@ public class App extends HttpServlet {
             VistaConsola.mostrarResultado("Datos calculados de Test 2:\n" + respuesta);
             VistaWeb.mostrarResultados(req, resp, respuesta, puntos, "Respuesta de Test 2");
 
-            rutaArvhivo = App.class.getClassLoader().getResource("test4.txt").getFile();
+            rutaArvhivo = App.class.getClassLoader().getResource("test3.txt").getFile();
             puntos = fuente.obtenerPuntosDosDimensionesDeArchivo(rutaArvhivo);
             VistaConsola.mostrarResultado("Puntos de Test 3: " + puntos);
             respuesta = calculador.calcularRegrecionCorrelacion(puntos, 386.0);
