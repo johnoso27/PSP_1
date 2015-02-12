@@ -1,8 +1,8 @@
 package edu.uniandes.ecos.psp1.controlador;
 
-import edu.uniandes.ecos.psp0.Fuente;
-import edu.uniandes.ecos.psp0.Modelo.PuntoDosDimensiones;
 import edu.uniandes.ecos.psp1.modelo.CalculadorRegresionYCorrelacion;
+import edu.uniandes.ecos.psp1.modelo.Fuente;
+import edu.uniandes.ecos.psp1.modelo.PuntoDosDimensiones;
 import edu.uniandes.ecos.psp1.modelo.ResultadoRegrecionCorrelacion;
 import edu.uniandes.ecos.psp1.vista.VistaConsola;
 import edu.uniandes.ecos.psp1.vista.VistaWeb;

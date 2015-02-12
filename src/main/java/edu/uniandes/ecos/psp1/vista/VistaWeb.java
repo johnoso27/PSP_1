@@ -1,6 +1,6 @@
 package edu.uniandes.ecos.psp1.vista;
 
-import edu.uniandes.ecos.psp0.Modelo.PuntoDosDimensiones;
+import edu.uniandes.ecos.psp1.modelo.PuntoDosDimensiones;
 import edu.uniandes.ecos.psp1.modelo.ResultadoRegrecionCorrelacion;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -137,4 +137,5 @@ public class VistaWeb {
             throws ServletException, IOException {
         resp.getWriter().println("Vaya se ha presentado un error!" + ex.getMessage());
     }
+
 }

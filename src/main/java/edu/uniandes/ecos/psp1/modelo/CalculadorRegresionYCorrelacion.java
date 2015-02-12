@@ -1,6 +1,5 @@
 package edu.uniandes.ecos.psp1.modelo;
 
-import edu.uniandes.ecos.psp0.Modelo.PuntoDosDimensiones;
 import java.util.LinkedList;
 
 /**
