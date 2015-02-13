@@ -1,0 +1,183 @@
+D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1>mvn install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building psp1 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ psp1 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ psp1 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ps
+p1 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Dropbox\UniversidadAndes\Proyectos
+Maven\psp1\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ psp1
+---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ psp1 ---
+[INFO] Surefire report directory: D:\Dropbox\UniversidadAndes\ProyectosMaven\psp
+1\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.uniandes.ecos.psp1.controlador.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running edu.uniandes.ecos.psp1.modelo.CalculadorRegresionYCorrelacionTest
+Se adicion¾ el punto: X:130.0 Y:186.0
+Se adicion¾ el punto: X:650.0 Y:699.0
+Se adicion¾ el punto: X:99.0 Y:132.0
+Se adicion¾ el punto: X:150.0 Y:272.0
+Se adicion¾ el punto: X:128.0 Y:291.0
+Se adicion¾ el punto: X:302.0 Y:331.0
+Se adicion¾ el punto: X:95.0 Y:199.0
+Se adicion¾ el punto: X:945.0 Y:1890.0
+Se adicion¾ el punto: X:368.0 Y:788.0
+Se adicion¾ el punto: X:961.0 Y:1601.0
+
+Regresion lineal y correlacion de los datos de test1.txt
+B0:     -22,553
+B1:     1,728
+rxy:    0,954
+r2:     0,911
+yk:     644,429
+xk:     386,000
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ psp1 ---
+[INFO] Building jar: D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1\target\psp1
+-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-dependency-plugin:2.4:copy-dependencies (copy-dependencies) @ p
+sp1 ---
+[INFO] jetty-io-7.6.0.v20120127.jar already exists in destination.
+[INFO] jetty-util-7.6.0.v20120127.jar already exists in destination.
+[INFO] psp0-1.0-SNAPSHOT.jar already exists in destination.
+[INFO] bcel-5.2.jar already exists in destination.
+[INFO] junit-3.8.1.jar already exists in destination.
+[INFO] jetty-servlet-7.6.0.v20120127.jar already exists in destination.
+[INFO] servlet-api-2.5.jar already exists in destination.
+[INFO] jetty-http-7.6.0.v20120127.jar already exists in destination.
+[INFO] jetty-security-7.6.0.v20120127.jar already exists in destination.
+[INFO] jetty-continuation-7.6.0.v20120127.jar already exists in destination.
+[INFO] jakarta-regexp-1.4.jar already exists in destination.
+[INFO] jetty-server-7.6.0.v20120127.jar already exists in destination.
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ psp1 ---
+[INFO] Installing D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1\target\psp1-1.
+0-SNAPSHOT.jar to C:\Users\JohnDany\.m2\repository\edu\uniandes\ecos\psp1\1.0-SN
+APSHOT\psp1-1.0-SNAPSHOT.jar
+[INFO] Installing D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1\pom.xml to C:\
+Users\JohnDany\.m2\repository\edu\uniandes\ecos\psp1\1.0-SNAPSHOT\psp1-1.0-SNAPS
+HOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.860 s
+[INFO] Finished at: 2015-02-08T20:10:52-05:00
+[INFO] Final Memory: 15M/166M
+[INFO] ------------------------------------------------------------------------
+D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1>mvn install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building psp1 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ psp1 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO]
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ psp1 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ps
+p1 ---
+[INFO] Using 'iso-8859-1' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory D:\Dropbox\UniversidadAndes\Proyectos
+Maven\psp1\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ psp1
+---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ psp1 ---
+[INFO] Surefire report directory: D:\Dropbox\UniversidadAndes\ProyectosMaven\psp
+1\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.uniandes.ecos.psp1.controlador.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running edu.uniandes.ecos.psp1.modelo.CalculadorRegresionYCorrelacionTest
+Se adicion¾ el punto: X:130.0 Y:186.0
+Se adicion¾ el punto: X:650.0 Y:699.0
+Se adicion¾ el punto: X:99.0 Y:132.0
+Se adicion¾ el punto: X:150.0 Y:272.0
+Se adicion¾ el punto: X:128.0 Y:291.0
+Se adicion¾ el punto: X:302.0 Y:331.0
+Se adicion¾ el punto: X:95.0 Y:199.0
+Se adicion¾ el punto: X:945.0 Y:1890.0
+Se adicion¾ el punto: X:368.0 Y:788.0
+Se adicion¾ el punto: X:961.0 Y:1601.0
+
+Regresion lineal y correlacion de los datos de /D:/Dropbox/UniversidadAndes/Proy
+ectosMaven/psp1/target/classes/test1.txt
+B0:     -22,553
+B1:     1,728
+rxy:    0,954
+r2:     0,911
+yk:     644,429
+xk:     386,000
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ psp1 ---
+[INFO]
+[INFO] --- maven-dependency-plugin:2.4:copy-dependencies (copy-dependencies) @ p
+sp1 ---
+[INFO] jetty-io-7.6.0.v20120127.jar already exists in destination.
+[INFO] jetty-util-7.6.0.v20120127.jar already exists in destination.
+[INFO] psp0-1.0-SNAPSHOT.jar already exists in destination.
+[INFO] bcel-5.2.jar already exists in destination.
+[INFO] junit-3.8.1.jar already exists in destination.
+[INFO] jetty-servlet-7.6.0.v20120127.jar already exists in destination.
+[INFO] servlet-api-2.5.jar already exists in destination.
+[INFO] jetty-http-7.6.0.v20120127.jar already exists in destination.
+[INFO] jetty-security-7.6.0.v20120127.jar already exists in destination.
+[INFO] jetty-continuation-7.6.0.v20120127.jar already exists in destination.
+[INFO] jakarta-regexp-1.4.jar already exists in destination.
+[INFO] jetty-server-7.6.0.v20120127.jar already exists in destination.
+[INFO]
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ psp1 ---
+[INFO] Installing D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1\target\psp1-1.
+0-SNAPSHOT.jar to C:\Users\JohnDany\.m2\repository\edu\uniandes\ecos\psp1\1.0-SN
+APSHOT\psp1-1.0-SNAPSHOT.jar
+[INFO] Installing D:\Dropbox\UniversidadAndes\ProyectosMaven\psp1\pom.xml to C:\
+Users\JohnDany\.m2\repository\edu\uniandes\ecos\psp1\1.0-SNAPSHOT\psp1-1.0-SNAPS
+HOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.955 s
+[INFO] Finished at: 2015-02-08T20:12:29-05:00
+[INFO] Final Memory: 16M/166M
+[INFO] ------------------------------------------------------------------------
